@@ -94,7 +94,7 @@ const Hero = () => {
             <div className="hero-content-v2">
                 <div className="hero-text-v2">
                     <h1 className="hero-title-v2">
-                        NINEORBIT
+                        NINEORBITE
                     </h1>
 
                     <div className="hero-typewriter">

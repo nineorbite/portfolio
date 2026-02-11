@@ -44,14 +44,32 @@ const Projects = () => {
                             style={{ animationDelay: `${index * 0.1}s` }}
                         >
                             <div className="project-image-wrapper-v2">
-                                <div className="project-placeholder-v2">
+                                {project.image ? (
+                                    <img
+                                        src={project.image}
+                                        alt={project.name}
+                                        className="project-image-v2"
+                                        onError={(e) => {
+                                            e.target.style.display = 'none';
+                                            e.target.nextElementSibling.style.display = 'flex';
+                                        }}
+                                    />
+                                ) : null}
+                                <div className="project-placeholder-v2" style={{ display: project.image ? 'none' : 'flex' }}>
                                     <span className="project-number-v2">{String(index + 1).padStart(2, '0')}</span>
+                                </div>
+                                <div className="project-overlay-v2">
+                                    <span className="view-project">View Project →</span>
                                 </div>
                             </div>
 
                             <div className="project-info">
+                                <div className="project-header">
+                                    <span className="project-category">{project.category}</span>
+                                    <span className="project-number-small">{String(index + 1).padStart(2, '0')}</span>
+                                </div>
                                 <h3 className="project-name-v2">{project.name}</h3>
-                                <p className="project-url">{project.url.replace('https://', '')}</p>
+                                <p className="project-description-v2">{project.description}</p>
                             </div>
                         </a>
                     ))}

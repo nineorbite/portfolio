@@ -93,22 +93,6 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Netflix Clone",
-    subtitle: "Streaming UI Application",
-    url: "https://netflix-clone-wwvj.onrender.com",
-    description: "A front-end streaming interface inspired by Netflix, built to demonstrate advanced UI structuring and component-based architecture.",
-    image: "/projects/netflix-clone.jpg",
-    highlights: [
-      "Dynamic content sections",
-      "Responsive layout",
-      "Modern streaming-style design",
-      "Performance optimized rendering"
-    ],
-    tech: ["React", "Component Architecture", "Responsive UI"],
-    category: "Entertainment"
-  },
-  {
-    id: 4,
     name: "AutoMoto",
     subtitle: "Automotive Management Dashboard",
     url: "https://auto-moto-beta.vercel.app/dashboard",
@@ -123,5 +107,57 @@ export const projects = [
     ],
     tech: ["React", "Dashboard", "Business Automation"],
     category: "SaaS Platform"
+  },
+  {
+    id: 4,
+    name: "Avocado E-Commerce",
+    subtitle: "Online Retail Solution",
+    url: "https://avocado-ms1s.onrender.com",
+    description: "A modern e-commerce platform designed for businesses to sell products online.",
+    image: "/projects/e-commerce-platform.jpg",
+    highlights: [
+      "User-friendly shopping experience",
+      "Product catalog and search functionality",
+      "Secure checkout process",
+      "Responsive design for all devices",
+      "Scalable architecture for growth"
+    ],
+    tech: ["React", "E-Commerce", "Scalable Design"],
+    category: "Retail Tech"
+  },
+  {
+    id: 5,
+    name: "ShipUp",
+    subtitle: "Logistics Management System",
+    url: "https://shipup-wwvj.onrender.com",
+    description: "A logistics management system designed to streamline shipping and delivery operations.",
+    image: "/projects/shipup.jpg",
+    highlights: [
+      "Task management and assignment",
+      "Team collaboration features",
+      "Progress tracking and reporting",
+      "Intuitive user interface",
+      "Scalable architecture for future enhancements"
+    ],
+    tech: ["React", "Project Management", "Collaboration Tools"],
+    category: "Productivity"  
+  },
+  {
+    id: 6,
+    name: "Make My Event",
+    subtitle: "Event Planning Platform",
+    url: "https://makemyevent.ie",
+    description: "An event planning platform that helps users organize and manage events seamlessly.",
+    image: "/projects/make-my-event.jpg",
+    highlights: [
+      "User-friendly shopping experience",
+      "Product catalog and search functionality",
+      "Secure checkout process",
+      "Responsive design for all devices",
+      "Scalable architecture for growth"
+    ],
+    tech: ["React", "E-Commerce", "Scalable Design"],
+    category: "Retail Tech"
   }
 ];
+ 
